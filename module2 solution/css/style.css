@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-size: 10px;
+	padding: 1.6em;
+	font-family: 'Oswald', sans-serif;
+}
+.mainTitle{
+	text-align: center;
+	font-size: 7.5em;
+	color:#03506f;
+	margin-top: 1em;
+}
+.mainDiv{
+	margin-top: 5em;
+}
+.FirstSectionWidth{
+	width:32%;
+	float: left;
+	position: relative;
+	font-size: 1.6em;
+	background-color: #bbf1fa;
+	border:2px solid #03506f;
+}
+
+.SecondSectionWidth{
+	width:32%;
+	float: left;
+	position: relative;
+	font-size: 1.6em;
+	background-color: #bbf1fa;
+	margin-right: 2%;
+	margin-left: 2%;
+	border:2px solid #03506f;
+}
+
+.ThirdSectionWidth{
+	width:32%;
+	float: left;
+	position: relative;
+	font-size: 1.6em;
+	background-color: #bbf1fa;
+	border:2px solid #03506f;
+}
+
+.subTitle{
+    position: absolute;
+    top: .3em;
+    right: .5em;
+    color: White;
+    background-color: #51c2d5;
+    padding: .5em 1em;
+    border-radius: 1em;
+    border:2px solid White;
+    font-size: 2.5em;
+
+}
+p{
+	margin-top: 7em;
+	padding: 2em;
+	font-size: 1em;
+}
+
+
+
+
+
+
+@media only screen and (max-width:991px) and (min-width: 768px){
+
+.FirstSectionWidth{
+	width:47%;
+	float: left;
+	margin: 0;
+	margin-right: 3%;
+}
+
+.SecondSectionWidth{
+	width:47%;
+	float: left;
+	margin: 0;
+	margin-left: 3%;
+}
+
+.ThirdSectionWidth{
+	width:100%;
+	margin: 0;
+	margin-top: 3.2em;
+}
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+.FirstSectionWidth{
+	width:100%;
+	float: none;
+	margin: 0;
+	margin-top: 1.6em;
+	
+}
+
+.SecondSectionWidth{
+	width:100%;
+	float: none;
+	margin: 0;
+	margin-top: 1.6em;
+
+}
+
+.ThirdSectionWidth{
+	width:100%;
+	float: none;
+	margin: 0;
+	margin-top: 1.6em;
+
+}
