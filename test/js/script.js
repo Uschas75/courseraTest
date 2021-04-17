@@ -58,10 +58,10 @@ for (var i in names/* fill in parts of the 'for' loop to loop over names array *
   // name in the loop.
 
   if (firstLetter === 'j'/* fill in condition here */) {
-    console.log(names[i]);
+    byeSpeaker.speak(names[i]);
     // byeSpeaker.xxxx
   } else {
-     console.log(names[i]);
+    helloSpeaker.speak(names[i]);
     // helloSpeaker.xxxx
   }
 }
